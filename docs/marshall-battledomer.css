@@ -1,0 +1,126 @@
+/*
+ * Copyright (c) 2025 ケルパニ＠猫
+ * Licensed under the MIT License.
+ * https://github.com/kerupani129s/marshall-maximizer-svg/blob/main/LICENSE
+ */
+
+/*
+ * 
+ */
+.bg {
+	/* f(x) = ((1.25^(6 * x) - 1) / (1.25^6 - 1) */
+	animation: bg 0.6s linear(0, 0.013, 0.027, 0.042, 0.057, 0.073, 0.089, 0.106, 0.123, 0.141, 0.160, 0.180, 0.200, 0.221, 0.243, 0.265, 0.289, 0.313, 0.339, 0.365, 0.392, 0.421, 0.450, 0.480, 0.512, 0.545, 0.579, 0.614, 0.651, 0.689, 0.729, 0.770, 0.813, 0.857, 0.903, 0.951, 1) infinite;
+}
+
+@keyframes bg {
+	from {
+		transform: scale(0.328);
+	}
+	to {
+		transform: scale(1.250);
+	}
+}
+
+/*
+ * 
+ */
+.a .s {
+	animation: a 1.263s infinite;
+}
+
+.ar .s {
+	animation: a 1.263s infinite reverse;
+}
+
+@keyframes a {
+	0% {
+		scale: 1.5 1;
+		translate: 5000px 0;
+		animation-timing-function: step-start;
+	}
+	5% {
+		scale: 1.5 1;
+		translate: 5000px 0;
+		animation-timing-function: cubic-bezier(0, 0.9, 0, 0.99);
+	}
+	50% {
+		scale: 1 1;
+		translate: 0 0;
+		animation-timing-function: cubic-bezier(1, 0.01, 1, 0.1);
+	}
+	95% {
+		scale: 1.5 1;
+		translate: -5000px 0;
+		animation-timing-function: step-start;
+	}
+	100% {
+		scale: 1.5 1;
+		translate: -5000px 0;
+	}
+}
+
+.b .s, .c .s, .d .s, .e .s {
+	animation: b 1.263s infinite;
+}
+
+.br .s, .cr .s, .dr .s, .er .s {
+	animation: b 1.263s infinite reverse;
+}
+
+@keyframes b {
+	0% {
+		scale: 1 1.5;
+		translate: 0 5000px;
+		animation-timing-function: step-start;
+	}
+	5% {
+		scale: 1 1.5;
+		translate: 0 5000px;
+		animation-timing-function: cubic-bezier(0, 0.9, 0, 0.99);
+	}
+	50% {
+		scale: 1 1;
+		translate: 0 0;
+		animation-timing-function: cubic-bezier(1, 0.01, 1, 0.1);
+	}
+	95% {
+		scale: 1 1.5;
+		translate: 0 -5000px;
+		animation-timing-function: step-start;
+	}
+	100% {
+		scale: 1 1.5;
+		translate: 0 -5000px;
+	}
+}
+
+/*
+ * 
+ */
+.char-1 .s {
+	animation-delay: -237ms;
+}
+
+.char-2 .s {
+	animation-delay: -197ms;
+}
+
+.char-3 .s {
+	animation-delay: -158ms;
+}
+
+.char-4 .s {
+	animation-delay: -118ms;
+}
+
+.char-5 .s {
+	animation-delay: -79ms;
+}
+
+.char-6 .s {
+	animation-delay: -39ms;
+}
+
+.char-7 .s {
+	animation-delay: 0;
+}

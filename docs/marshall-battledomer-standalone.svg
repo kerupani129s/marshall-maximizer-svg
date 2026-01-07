@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2025 ケルパニ＠猫
+  Licensed under the MIT License.
+  https://github.com/kerupani129s/marshall-maximizer-svg/blob/main/LICENSE
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="-960 -540 1920 1080">
+  <style>
+/*
+ * 
+ */
+.bg {
+	/* f(x) = ((1.25^(6 * x) - 1) / (1.25^6 - 1) */
+	animation: bg 0.6s linear(0, 0.013, 0.027, 0.042, 0.057, 0.073, 0.089, 0.106, 0.123, 0.141, 0.160, 0.180, 0.200, 0.221, 0.243, 0.265, 0.289, 0.313, 0.339, 0.365, 0.392, 0.421, 0.450, 0.480, 0.512, 0.545, 0.579, 0.614, 0.651, 0.689, 0.729, 0.770, 0.813, 0.857, 0.903, 0.951, 1) infinite;
+}
+
+@keyframes bg {
+	from {
+		transform: scale(0.328);
+	}
+	to {
+		transform: scale(1.250);
+	}
+}
+
+/*
+ * 
+ */
+.a .s {
+	animation: a 1.263s infinite;
+}
+
+.ar .s {
+	animation: a 1.263s infinite reverse;
+}
+
+@keyframes a {
+	0% {
+		scale: 1.5 1;
+		translate: 5000px 0;
+		animation-timing-function: step-start;
+	}
+	5% {
+		scale: 1.5 1;
+		translate: 5000px 0;
+		animation-timing-function: cubic-bezier(0, 0.9, 0, 0.99);
+	}
+	50% {
+		scale: 1 1;
+		translate: 0 0;
+		animation-timing-function: cubic-bezier(1, 0.01, 1, 0.1);
+	}
+	95% {
+		scale: 1.5 1;
+		translate: -5000px 0;
+		animation-timing-function: step-start;
+	}
+	100% {
+		scale: 1.5 1;
+		translate: -5000px 0;
+	}
+}
+
+.b .s, .c .s, .d .s, .e .s {
+	animation: b 1.263s infinite;
+}
+
+.br .s, .cr .s, .dr .s, .er .s {
+	animation: b 1.263s infinite reverse;
+}
+
+@keyframes b {
+	0% {
+		scale: 1 1.5;
+		translate: 0 5000px;
+		animation-timing-function: step-start;
+	}
+	5% {
+		scale: 1 1.5;
+		translate: 0 5000px;
+		animation-timing-function: cubic-bezier(0, 0.9, 0, 0.99);
+	}
+	50% {
+		scale: 1 1;
+		translate: 0 0;
+		animation-timing-function: cubic-bezier(1, 0.01, 1, 0.1);
+	}
+	95% {
+		scale: 1 1.5;
+		translate: 0 -5000px;
+		animation-timing-function: step-start;
+	}
+	100% {
+		scale: 1 1.5;
+		translate: 0 -5000px;
+	}
+}
+
+/*
+ * 
+ */
+.char-1 .s {
+	animation-delay: -237ms;
+}
+
+.char-2 .s {
+	animation-delay: -197ms;
+}
+
+.char-3 .s {
+	animation-delay: -158ms;
+}
+
+.char-4 .s {
+	animation-delay: -118ms;
+}
+
+.char-5 .s {
+	animation-delay: -79ms;
+}
+
+.char-6 .s {
+	animation-delay: -39ms;
+}
+
+.char-7 .s {
+	animation-delay: 0;
+}
+  </style>
+  <style>
+    .a, .ar { transform: skewX(-30deg); }
+    .b, .br { transform: skewX(30deg); }
+    .c, .cr { transform: skewX(8.5deg); }
+    .d, .dr { transform: skewX(-30deg); }
+    .e, .er { transform: skewX(-33.5deg); }
+  </style>
+  <clipPath id="hole">
+    <path d="M -960,-540 H 960 V 540 H -960 Z M 0,-64 A 64,64 0 0 0 0,64 A 64,64 0 0 0 0,-64 Z" />
+  </clipPath>
+  <defs>
+    <polygon id="hexagon" points="100,0 50,86.603 -50,86.603 -100,0 -50,-86.603 50,-86.603" stroke-width="1" stroke-linejoin="round" fill="none" />
+  </defs>
+  <rect x="-50%" y="-50%" width="100%" height="100%" fill="#00adbe" />
+  <g clip-path="url(#hole)">
+    <g class="bg" stroke="white">
+      <use href="#hexagon" transform="scale( 0.616) rotate(60)" />
+      <use href="#hexagon" transform="scale( 0.770) rotate(50)" />
+      <use href="#hexagon" transform="scale( 0.962) rotate(40)" />
+      <use href="#hexagon" transform="scale( 1.203) rotate(30)" />
+      <use href="#hexagon" transform="scale( 1.503) rotate(20)" />
+      <use href="#hexagon" transform="scale( 1.879) rotate(10)" />
+      <use href="#hexagon" transform="scale( 2.349) rotate(60)" />
+      <use href="#hexagon" transform="scale( 2.936) rotate(50)" />
+      <use href="#hexagon" transform="scale( 3.670) rotate(40)" />
+      <use href="#hexagon" transform="scale( 4.588) rotate(30)" />
+      <use href="#hexagon" transform="scale( 5.734) rotate(20)" />
+      <use href="#hexagon" transform="scale( 7.168) rotate(10)" />
+      <use href="#hexagon" transform="scale( 8.960) rotate(60)" />
+      <use href="#hexagon" transform="scale(11.200) rotate(50)" />
+      <use href="#hexagon" transform="scale(14.000) rotate(40)" />
+      <use href="#hexagon" transform="scale(17.500) rotate(30)" />
+      <use href="#hexagon" transform="scale(21.875) rotate(20)" />
+      <use href="#hexagon" transform="scale(27.344) rotate(10)" />
+    </g>
+  </g>
+  <g class="text" fill="white" transform="translate(-960, -540)">
+    <!-- メモ: transform プロパティを用いる要素は transform 属性が無視される -->
+    <!-- バ -->
+    <g class="char-1" transform="translate(250, 20)">
+      <g class="d"  style="translate:    0     0  ;"><rect class="s" width="165" height="510" /></g>
+      <g class="cr" style="translate:  165px 205px;"><rect class="s" width="150" height="305" /></g>
+      <g class="er" style="translate:  260px   0  ;"><rect class="s" width="100" height="100" /></g>
+      <g class="e"  style="translate:  410px   0  ;"><rect class="s" width="100" height="100" /></g>
+    </g>
+    <!-- ト -->
+    <g class="char-2" transform="translate(940, 20)">
+      <g class="dr" style="translate:    0     0  ;"><rect class="s" width="165" height="510" /></g>
+      <g class="a"  style="translate: -115px 205px;"><rect class="s" width="530" height="115" /></g>
+    </g>
+    <!-- ル -->
+    <g class="char-3" transform="translate(1520, 20)">
+      <g class="dr" style="translate: -150px 255px;"><rect class="s" width="165" height="240" /></g>
+      <g class="d"  style="translate:  260px   0  ;"><rect class="s" width="165" height="500" /></g>
+      <g class="ar" style="translate:   40px 385px;"><rect class="s" width="295" height="115" /></g>
+    </g>
+    <!-- ド -->
+    <g class="char-4" transform="translate(175, 550)">
+      <g class="dr" style="translate:    0     0  ;"><rect class="s" width="165" height="495" /></g>
+      <g class="a"  style="translate: -110px 195px;"><rect class="s" width="520" height="115" /></g>
+      <g class="er" style="translate:  290px   0  ;"><rect class="s" width="100" height="100" /></g>
+      <g class="e"  style="translate:  440px   0  ;"><rect class="s" width="100" height="100" /></g>
+    </g>
+    <!-- ー -->
+    <g class="char-5" transform="translate(750, 550)">
+      <g class="a"  style="translate: -110px 195px;"><rect class="s" width="355" height="115" /></g>
+    </g>
+    <!-- マ -->
+    <g class="char-6" transform="translate(1065, 550)">
+      <g class="ar" style="translate:    0     0  ;"><rect class="s" width="570" height="115" /></g>
+      <g class="d"  style="translate:  405px   0  ;"><rect class="s" width="165" height="370" /></g>
+      <g class="b"  style="translate:  -10px 225px;"><rect class="s" width="165" height="270" /></g>
+    </g>
+    <!-- ー -->
+    <g class="char-7" transform="translate(1690, 550)">
+      <g class="a"  style="translate: -110px 195px;"><rect class="s" width="355" height="115" /></g>
+    </g>
+  </g>
+</svg>
